@@ -1,0 +1,5 @@
+<view class="search_input">
+   <navigator url="/pages/seach/index" open-type="navigate">
+   请搜索景点相关内容
+   </navigator>
+</view>

@@ -1,0 +1,66 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/table/table",
+    "pages/chat/chat",
+    "pages/people/people",
+    "pages/seach/index",
+    "pages/auth/index",
+    "pages/login/index",
+    "pages/collect/index",
+    "pages/feedback/index",
+    "pages/goods_detail/index",
+    "pages/food_list/index",
+    "pages/room_list/index",
+    "pages/going_list/index",
+    "pages/fun_list/index",
+    "pages/shopping_list/index"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#1296DB",
+    "navigationBarTitleText": "瑰宝中国",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":true,
+    "backgroundColor": "#F3F3F3"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "iconPath": "icon/_home.png",
+        "pagePath":"pages/index/index",
+        "text": "首页",
+        "selectedIconPath": "icon/home.png"
+      },
+      {
+        "iconPath": "icon/_table.png",
+        "pagePath": "pages/table/table",
+        "text": "行程",
+        "selectedIconPath": "icon/table.png"
+      },
+      {
+        "iconPath": "icon/_chat.png",
+        "pagePath": "pages/chat/chat",
+        "text": "消息",
+        "selectedIconPath": "icon/chat.png"
+      },
+      {
+        "iconPath": "icon/_people.png",
+        "pagePath": "pages/people/people",
+        "text": "我的",
+        "selectedIconPath": "icon/people.png"
+      }
+    ],
+    "color": "#BDC8DE",
+    "selectedColor": "#1296DB",
+    "borderStyle": "white"
+  },
+  
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
+
+
+
+
